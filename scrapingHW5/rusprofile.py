@@ -32,7 +32,7 @@ page = getpage(url)
 #%%
 
 name = page.xpath("//div[@class='company-name']/text()")[0]
-inn =  page.xpath("//span[@id='clip_inn']/text()")[0]
+inn = page.xpath("//span[@id='clip_inn']/text()")[0]
 registarion_date = page.xpath("//dl/dd[@class='company-info__text']/text()")[1]
 staff = page.xpath("//dl/dd[@class='company-info__text']/text()")[2]
 cheef = page.xpath("//a[@class='link-arrow gtm_main_fl']//span/text()")[0]
